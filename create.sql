@@ -7,7 +7,7 @@ CREate TABLE player(
 
 );
 CREate TABLE team_year (
- t_name integer ,
+ t_name text ,
  year_period text ,
 
  player_id int,
