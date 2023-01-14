@@ -83,7 +83,7 @@ class Get_visualisation():
         conn.close()
 
 
-        return column
+        return column1 , column2
 
 
 
