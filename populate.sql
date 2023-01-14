@@ -1,10 +1,4 @@
-CREate TABLE statistic(
- stati_id integer , 
- player_id integer,
- total_games integer , 
- total_points integer, 
- field_goals integer
-);
+
 
 ALTer TABLE player
 ADD CONSTRAINT player_id   primary KEY (player_id);
