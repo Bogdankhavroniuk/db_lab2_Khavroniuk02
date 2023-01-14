@@ -19,7 +19,7 @@ CREate TABLE team_year (
 
 
 CREate TABLE statistic(
- stati_id integer , 
+ stat_id integer , 
  player_id integer,
  total_games integer , 
  total_points integer, 
