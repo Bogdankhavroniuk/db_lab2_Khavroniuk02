@@ -1,15 +1,5 @@
 
 
-ALTer TABLE player
-ADD CONSTRAINT player_id   primary KEY (player_id);
-
-ALTer TABLE team_year
-ADD CONSTRAINT player_id FOREIGN KEY(player_id )  REFERENCES player(player_id);
-
-ALTer TABLE statistic
-ADD CONSTRAINT stat_id primary KEY  (stat_id) , 
-ADD CONstraint player_id FOREIGN KEY(player_id )  REFERENCES player(player_id);
-
 
 INSERT INTO player
 VALUES (1, 'Kareem Abdul-Jabbar', 'C' ),
