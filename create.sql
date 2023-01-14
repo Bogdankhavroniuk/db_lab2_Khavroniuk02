@@ -23,7 +23,7 @@ CREate TABLE statistic(
  player_id integer,
  total_games int,
  points_per_game int,
- total_points int
+
 );
 
 ALTer TABLE player
